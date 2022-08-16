@@ -2,7 +2,7 @@ import React from 'react';
 import Card from "react-bootstrap/Card";
 import Titi from "./GitHubCard/titi_pic";
 
-function gitHubCard() {
+function gitHubCard () {
     return (
      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Titi} />
